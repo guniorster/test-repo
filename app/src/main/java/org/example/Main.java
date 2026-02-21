@@ -1,14 +1,24 @@
 package org.example;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
+        System.out.printf("HelLLLLlo and weasdflcome!");
 
         for (int i = 1; i <= 5; i++) {
         System.out.println("i = " + i);
         }
 
         System.out.println("Hello world!!!");
+
+        while (true) {
+            System.out.println("Podaj liczbe do obliczenia perwiastka");
+            Scanner scanner = new Scanner(System.in);
+            int liczba = scanner.nextInt();
+            System.out.println(Math.sqrt((double) liczba));
+        }
     }
 }
