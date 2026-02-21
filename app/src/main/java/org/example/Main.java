@@ -10,5 +10,9 @@ public class Main {
         }
 
         System.out.println("Hello world!!!");
+
+        while (true) {
+            System.out.println("Podaj liczbe do obliczenia perwiastka");
+        }
     }
 }
