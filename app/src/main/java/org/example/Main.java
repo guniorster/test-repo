@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -20,5 +22,6 @@ public class Main {
             int liczba = scanner.nextInt();
             System.out.println(Math.sqrt((double) liczba));
         }
+        System.out.println(solo -> solo.length());
     }
 }
