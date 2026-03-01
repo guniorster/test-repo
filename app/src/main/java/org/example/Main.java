@@ -22,6 +22,5 @@ public class Main {
             int liczba = scanner.nextInt();
             System.out.println(Math.sqrt((double) liczba));
         }
-        System.out.println(solo -> solo.length());
     }
 }
